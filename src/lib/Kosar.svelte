@@ -5,7 +5,12 @@
   Kosár
   <hr>
   {#each termekek as item}
-    {item.nev} {item.db} {item.db}
+    <b>{item.nev}</b> {item.ar}Ft - {item.db} db
     <br>
   {/each}
 </h1>
+<style>
+  b {
+    color: blue;
+  }
+</style>
